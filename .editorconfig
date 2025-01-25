@@ -1,0 +1,38 @@
+# Editor configuration, see http://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+max_line_length = 100
+
+[*.sh]
+max_line_length = 88
+indent_size = 2
+
+[*.{html,htm}]
+max_line_length = 100
+indent_size = 2
+
+[*.css]
+max_line_length = 100
+indent_size = 2
+
+[*.{ts,tsx,js,jsx,cjs}]
+max_line_length = 100
+indent_size = 2
+
+[*.json]
+indent_size = 2
+
+[**/*.xml]
+indent_size = 2
+
+[**/*.svg]
+indent_size = 2
